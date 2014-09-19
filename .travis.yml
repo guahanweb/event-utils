@@ -1,0 +1,14 @@
+language: node_js
+
+node_js:
+  - '0.11'
+  - '0.10'
+
+env:
+  global:
+    - secure: "EmAZRUl18D4hKBW7sv5LAdfEoHFg3x5HDGFzwz99aBTZiXzrNzIIjmaOM0isG3jzn02qdE6B3hZlXuxpe3A+5NAYu5t7pBEsRREP/ekIJzYaO5JCi0TESDTUfF41YfUeMNkWhoJQk+N4nkTYreuJviIyVemEyVtVGs2BVy+/N30="
+    - GH_OWNER: "guahanweb"
+    - GH_PROJECT_NAME: "event-utils"
+
+before_script:
+  - npm install -g gulp
