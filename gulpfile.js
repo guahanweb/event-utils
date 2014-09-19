@@ -3,8 +3,8 @@ var gulp = require('./gulp')({
     'jshint': [],
     'test': [],
 
-    'event-emitter': ['clean', 'jshint', 'test']
+    'build': ['clean', 'jshint', 'test']
 });
 
 gulp.task('default', []);
-gulp.task('build', ['event-emitter']);
+gulp.task('release', ['build']);
