@@ -1,7 +1,10 @@
 var gulp = require('./gulp')({
+    'clean': [],
     'jshint': [],
-    'test': []
+    'test': [],
+
+    'event-emitter': ['clean', 'jshint', 'test']
 });
 
 gulp.task('default', []);
-gulp.task('build', ['jshint', 'test']);
+gulp.task('build', ['event-emitter']);
