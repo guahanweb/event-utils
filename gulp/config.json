@@ -2,6 +2,9 @@
     "files": {
         "lint": [
             "src/**/*.js"
+        ],
+        "test": [
+            "test/**/*.spec.js"
         ]
     }
 }

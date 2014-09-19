@@ -1,5 +1,7 @@
 var gulp = require('./gulp')({
-    'jshint': []
+    'jshint': [],
+    'test': []
 });
 
 gulp.task('default', []);
+gulp.task('build', ['jshint', 'test']);

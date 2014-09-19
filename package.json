@@ -13,7 +13,15 @@
     "gulp": "^3.8.8",
     "gulp-jasmine2-phantomjs": "^0.1.1",
     "gulp-jshint": "^1.8.4",
+    "gulp-karma": "0.0.4",
     "gulp-util": "^3.0.1",
-    "jshint-stylish": "^0.4.0"
-  }
+    "jshint-stylish": "^0.4.0",
+    "karma": "^0.12.23",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "phantomjs": "^1.9.9"
+  },
+    "scripts": {
+        "test": "gulp test"
+    }
 }
