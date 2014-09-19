@@ -1,0 +1,19 @@
+{
+  "name": "event-utils",
+  "description": "Compilation of custom JS event modules",
+  "version": "0.0.1",
+  "homepage": "https://github.com/guahanweb/event-utils",
+  "repository": "https://github.com/guahanweb/event-utils.git",
+  "author": "Garth Henson <garth@guahanweb.com>",
+  "licenses": {
+    "type": "MIT",
+    "url": ""
+  },
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-jasmine2-phantomjs": "^0.1.1",
+    "gulp-jshint": "^1.8.4",
+    "gulp-util": "^3.0.1",
+    "jshint-stylish": "^0.4.0"
+  }
+}
