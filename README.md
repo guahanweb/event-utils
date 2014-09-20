@@ -37,3 +37,25 @@ o.on('test', function (term) {
 });
 o.test();
 ```
+
+### PubSub
+
+This module gives a global mechanism by which an application can perform communication via the publish-subscribe
+design pattern. The ability to communicate globally across modules and contexts can be quite useful when it comes
+to workflows and other control mechanisms.
+
+### Usage:
+```javascript
+// Context 1
+(function () {
+    PubSub.subscribe('test', function (data) {
+        console.log('Received data: ', data);
+    });
+})();
+
+// Context 2
+(function () {
+    PubSub.publish('test', {
+        foo: 'bar'
+    });
+})();
